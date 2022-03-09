@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Icons -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/c2b6a647f8.js" crossorigin="anonymous"></script>
+    
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans:wght@300&family=Roboto+Mono:wght@200&display=swap"
+    rel="stylesheet">
+    
+</head>
+<body>
+<!-- Main background color div -->
+<div class="main">
+    <!-- Logo and Navbar -->
+    <div class="grid-main-content">
+        <header class="grid-navBar-container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo Unexplored Stays">
+            </div>
+            <nav class="navBar">
+                <ul>
+                    <li class="navBarHome"><a href="./index.html"><i class="fa-solid fa-house"></i><span class="linkTitle">Home</span></a></li>
+                    <li class="navBarContact"><a href="#"><i class="fa-solid fa-envelope"></i><span class="linkTitle">Contact Us</span></a></li>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropDownUl">
+                        <div class="dropDown">
+                            <div class="button">
+                            <p class="dropButton navBarPlaces"><i class="fa-solid fa-location-dot"></i><span class="linkTitle">Places</span></p>
+                            </div>
+                            <div class="dropContent">
+                                <li><a href="./pages/boaVista.html">Boa Vista</a></li>
+                                <li><a href="./pages/ishigaki.html">Ishigaki Island</a></li>
+                                <li><a href="./pages/kamchatka.html">Kamchatka Peninsula</a></li>
+                                <li><a href="./pages/matera.html">Matera</a></li>
+                                <li><a href="./pages/montrealGarden.html">Botanical Garden, Montreal</a></li>
+                                <li><a href="./pages/ponmudi.html">Ponmudi Hills</a></li>
+                                <li><a href="./pages/roatan.html">Roatán</a></li>
+                                <li><a href="./pages/tigersNest.html">Tiger's Nest</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                    <li class="languageOption navBarLanguages"><i class="fa-solid fa-flag"></i><select  name="language" id="language">
+                    <option value="english">English</option>
+                    <option value="spanish">Español</option>
+                    </select>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="mainSection grid-main-container">
+            <div class="mainDivParagraph">
+                <!-- Info about the page -->
+                <h1 class="mainTitle">Experience Unexplored Stays</h1>
+                <p class="mainParagraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores ipsam pariatur voluptas culpa repellendus eum aperiam quisquam, unde nemo aliquam quo suscipit provident facilis placeat amet repellat? Quas officia incidunt autem adipisci eaque error natus est dignissimos recusandae ipsa pariatur libero cumque molestias enim, reiciendis et delectus repellat, rerum minima illum magni alias totam ullam. Voluptates necessitatibus adipisci fugit aut nam nulla accusantium, expedita ducimus qui tempore nemo ratione porro maiores? Temporibus quod ipsam quis, ullam modi explicabo ut eveniet, laboriosam delectus omnis rem qui. Animi excepturi, est dignissimos dicta similique odio reiciendis, ducimus soluta alias qui voluptate rerum dolor quia odit corrupti corporis id? Ullam ut architecto officiis quae quibusdam magnam dolore voluptatibus maxime sed, enim perspiciatis veritatis quisquam ipsam. Quae officiis labore ea officia soluta harum non et, unde similique voluptas, aperiam qui adipisci sed eligendi alias vero in modi natus corporis repellat ipsam. Esse dolorum adipisci nostrum perspiciatis excepturi quasi deleniti doloribus, expedita a dolor laboriosam error quisquam quos maiores dolorem sapiente perferendis eum alias! Incidunt iure voluptas sint? Id consectetur vero cum, harum voluptate dolorum aliquam libero eveniet qui quas, nam animi perspiciatis ipsa assumenda, neque impedit doloremque! Voluptatem illum dolorum quibusdam magni, facilis culpa!
+                </p>
+            </div>
+            <div class="mainImages grid-main-images">
+                <!-- 2 images, 1 video with link to their own page. -->
+                <h2 class="secondaryTitle">Stays of the week</h2>
+                <div class="firstTwoImages">
+                    <div class="firstImage">
+                        <p class="firstImageTitle">Ponmudi Hills, India</p><a href="./pages/ponmudi.html"><img class="firstMainImage" src="./images/ponmudiHills.jpg" alt="Ponmudi Greenery"></a>
+                    </div>
+                    <div class="secondImage">
+                        <p class="secondImageTitle">Kamchatka Peninsula, Russia</p>
+                        <a href="./pages/kamchatka.html"><img class="secondMainImage" src="./images/kamchatka.jpg" alt="Kamchatka Mountains"></a>
+                    </div>
+                </div>
+                <div class="thirdImage">
+                    <p>Tiger's Nest, Bhutan</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x71yCZyA4kQ" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                    <a href="./pages/tigersNest.html">More</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- More images with links to more pages -->
+    <h3 class="moreTitle">More Stays...</h3>
+    <section class="secondarySection flex-secondarySection-container">
+        <div>
+            <p class="firstSecondaryTitle">Boa Vista, Cape Verde</p>
+            <a href="./pages/boaVista.html"><img class="firstSecondaryImage" src="./images/boaVista.jpg" alt="Boa Vista, Cape Verde"></a>
+        </div>
+        <div>
+            <p class="secondSecondaryTitle">Ishigaki Island, Japan</p>
+            <a href="./pages/ishigaki.html"><img class="secondSecondaryImage" src="./images/ishigakiJapan.jpg" alt="Ishigaki Island, Hokaido Japan"></a>
+        </div>
+        <div>
+            <p class="thirdSecondaryTitle">Matera, Italy</p>
+            <a href="./pages/matera.html"><img class="thirdSecondaryImage" src="./images/materaItaly.jpg" alt="Matera, Italy"></a>
+        </div>
+        <div>
+            <p class="fourthSecondaryTitle">Botanical Garden, Montreal Canada</p>
+            <a href="./pages/montrealGarden.html"><img class="fourthSecondaryImage" src="./images/montrealCanada.jpg" alt="Botanical Garden, Montreal Canada"></a>
+        </div>
+        <div>
+            <p class="fifthSecondaryTitle">Roatán, Honduras</p>
+            <a href="./pages/roatan.html"><img class="fifthSecondaryImage" src="./images/roatanHonduras.jpg" alt="Roatán, Honduras"></a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy;Copyright 2022</p>
+        <ul class="footerLogos">
+            <li><a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>

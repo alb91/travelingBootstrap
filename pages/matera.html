@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Icons -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/c2b6a647f8.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans:wght@300&family=Roboto+Mono:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+<!-- Main background color div -->
+<div class="main">
+    <!-- Logo and Navbar -->
+    <header class="grid-navBar-container">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo Unexplored Stays">
+        </div>
+        <nav class="navBar">
+            <ul>
+                <li class="navBarHome"><a href="../index.html"><i class="fa-solid fa-house"></i><span
+                            class="linkTitle">Home</span></a></li>
+                <li class="navBarContact"><a href="#"><i class="fa-solid fa-envelope"></i><span class="linkTitle">Contact
+                            Us</span></a></li>
+                <!-- Dropdown Menu -->
+                <ul class="dropDownUl">
+                    <div class="dropDown">
+                        <div class="button">
+                            <p class="dropButton navBarPlaces"><i class="fa-solid fa-location-dot"></i><span
+                                    class="linkTitle">Places</span></p>
+                        </div>
+                        <div class="dropContent">
+                            <li><a href="../pages/boaVista.html">Boa Vista</a></li>
+                            <li><a href="../pages/ishigaki.html">Ishigaki Island</a></li>
+                            <li><a href="../pages/kamchatka.html">Kamchatka Peninsula</a></li>
+                            <li><a href="../pages/matera.html">Matera</a></li>
+                            <li><a href="../pages/montrealGarden.html">Botanical Garden, Montreal</a></li>
+                            <li><a href="../pages/ponmudi.html">Ponmudi Hills</a></li>
+                            <li><a href="../pages/roatan.html">Roatán</a></li>
+                            <li><a href="../pages/tigersNest.html">Tiger's Nest</a></li>
+                        </div>
+                    </div>
+                </ul>
+                <li class="languageOption navBarLanguages"><i class="fa-solid fa-flag"></i><select name="language"
+                        id="language">
+                        <option value="english">English</option>
+                        <option value="spanish">Español</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Info about the page and map of the place -->
+    <main class="mainSection grid-mainSection-SecondaryPages">
+        <div class="mainDivParagraph">
+            <!-- Info about the page -->
+            <h1 class="mainTitle">Experience Matera, Italy</h1>
+            <p class="mainParagraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores ipsam pariatur voluptas culpa
+                repellendus eum aperiam quisquam, unde nemo aliquam quo suscipit provident facilis placeat amet repellat?
+                Quas officia incidunt autem adipisci eaque error natus est dignissimos recusandae ipsa pariatur libero
+                cumque molestias enim, reiciendis et delectus repellat, rerum minima illum magni alias totam ullam.
+                Voluptates necessitatibus adipisci fugit aut nam nulla accusantium, expedita ducimus qui tempore nemo
+                ratione porro maiores? Temporibus quod ipsam quis, ullam modi explicabo ut eveniet, laboriosam delectus
+                omnis rem qui. Animi excepturi, est dignissimos dicta similique odio reiciendis, ducimus soluta alias qui
+                voluptate rerum dolor quia odit corrupti corporis id? Ullam ut architecto officiis quae quibusdam magnam
+                dolore voluptatibus maxime sed, enim perspiciatis veritatis quisquam ipsam. Quae officiis labore ea officia
+                soluta harum non et, unde similique voluptas, aperiam qui adipisci sed eligendi alias vero in modi natus
+                corporis repellat ipsam. Esse dolorum adipisci nostrum perspiciatis excepturi quasi deleniti doloribus,
+                expedita a dolor laboriosam error quisquam quos maiores dolorem sapiente perferendis eum alias! Incidunt
+                iure voluptas sint? Id consectetur vero cum, harum voluptate dolorum aliquam libero eveniet qui quas, nam
+                animi perspiciatis ipsa assumenda, neque impedit doloremque! Voluptatem illum dolorum quibusdam magni,
+                facilis culpa!
+            </p>
+        </div>
+        <iframe class="iframeMap"  width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
+            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20matera+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <a href='https://embedmap.org/'>how to add a google map to my website</a>
+        <script type='text/javascript'
+            src='https://embedmaps.com/google-maps-authorization/script.js?id=76f3fb96bec93fbc37c7f37d2710b6e0dcc678a6'></script>
+    </main>
+    <section class="flex-section-secondaryPages">
+        <img class="secondaryPagesImages" src="../images/materaCave.jpg" alt="Cave View of Matera">
+        <img class="secondaryPagesImages" src="../images/materaHouses.jpg" alt="Houses in Matera">
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy;Copyright 2022</p>
+        <ul class="footerLogos">
+            <li><a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>

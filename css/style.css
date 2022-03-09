@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Main background color and font */
+
+.main {
+  background-color: #f8ffe5;
+  color: black;
+
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+/* Logo */
+
+.logo img {
+  border-right: 5px solid green;
+  border-bottom: 5px solid green;
+  margin: 25px;
+  padding: 15px;
+}
+
+/* NavBar */
+
+.navBar {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  margin: 15px;
+  color: green;
+}
+
+.navBarHome {
+  display: inline-block;
+}
+
+.navBarContact {
+  display: inline-block;
+}
+
+.navBarPlaces {
+  display: inline-block;
+}
+
+.navBarLanguages {
+  display: inline-block;
+}
+.navBar ul li {
+  display: inline-block;
+}
+
+.navBar ul li a {
+  margin: 15px;
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  color: green;
+  font-size: large;
+}
+
+.dropDownUl {
+  display: inline-block;
+}
+
+/* Dropdown Button*/
+.button {
+  display: inline-block;
+  text-align: right;
+  margin: 15px 15px 0;
+}
+
+.dropDown {
+  display: inline-block;
+  position: relative;
+}
+
+/* dropdwon content (will be hidden) */
+.dropContent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  right: 0;
+}
+
+/* Show dropdown menu on hover */
+.dropDown:hover .dropContent {
+  display: block;
+}
+
+.languageOption {
+  text-align: right;
+  margin: 15px;
+}
+
+/* main */
+
+.mainSection {
+}
+
+.mainDivParagraph {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  margin-left: 15px;
+}
+
+.mainParagraph {
+  margin: 15px;
+}
+
+.mainTitle {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.secondaryTitle {
+  margin: 15px;
+  color: blueviolet;
+}
+.firstImageTitle {
+  color: blueviolet;
+}
+
+.mainImages {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.mainImages p {
+  margin: 15px;
+}
+
+.firstMainImage {
+  height: 300px;
+  border: 5px solid blueviolet;
+}
+
+.secondImageTitle {
+  color: brown;
+}
+.secondMainImage {
+  height: 300px;
+  border: 5px solid brown;
+}
+
+/* Secondary Section */
+/* Secondary Section Organization */
+
+.secondarySection {
+  font-weight: bold;
+}
+
+.secondarySection div p {
+  margin: 15px;
+}
+
+.moreTitle {
+  font-weight: bold;
+  margin: 15px;
+  color: rosybrown;
+}
+
+.firstSecondaryTitle {
+  color: rosybrown;
+}
+
+.firstSecondaryImage {
+  height: 200px;
+  margin: 15px;
+  border: 5px solid rosybrown;
+}
+
+.secondSecondaryTitle {
+  color: navy;
+}
+.secondSecondaryImage {
+  height: 200px;
+  margin: 15px;
+  border: 5px solid navy;
+}
+
+.thirdSecondaryTitle {
+  color: lightcoral;
+}
+
+.thirdSecondaryImage {
+  height: 200px;
+  margin: 15px;
+  border: 5px solid lightcoral;
+}
+
+.fourthSecondaryTitle {
+  color: rebeccapurple;
+}
+.fourthSecondaryImage {
+  height: 200px;
+  margin: 15px;
+  border: 5px solid rebeccapurple;
+}
+
+.fifthSecondaryTitle {
+  color: darkgreen;
+}
+.fifthSecondaryImage {
+  height: 200px;
+  margin: 15px;
+  border: 5px solid darkgreen;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.footerLogos {
+  text-align: right;
+}
+
+.footerLogos li {
+  text-decoration: none;
+  margin: 15px;
+  display: inline-block;
+}
+
+.footerLogos li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Secondary pages */
+/* Boa Vista, Cape Verde */
+/* Map */
+
+.iframeMap {
+  height: 400px;
+  margin: 15px;
+  border: 5px solid darkgreen;
+}
+
+.secondaryPagesImages {
+  height: 350px;
+  border: 5px solid blueviolet;
+}
+
+/* Media Queries Small Screens*/
+
+@media only screen and (max-width: 699px) {
+  /* Grid Main Content */
+  .grid-main-content {
+    display: grid;
+  }
+  /* Grid NavBar Container */
+  .grid-navBar-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .linkTitle {
+    display: none;
+  }
+
+  .grid-main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .firstTwoImages {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .flex-secondarySection-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footerLogos {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Small Screen Secondary Pages */
+  .grid-mainSection-SecondaryPages {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .flex-section-secondaryPages {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+}
+
+/* Media Queries Medium Screens */
+
+@media only screen and (min-width: 700px) {
+  /* Grid Main Content */
+  .grid-main-content {
+    display: grid;
+  }
+  /* Grid NavBar Container */
+  .grid-navBar-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid-main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .flex-secondarySection-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footerLogos {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Secondary Pages Medium Screen */
+}
+
+@media only screen and (min-width: 1201px) {
+  /* Grid Main Content */
+  .grid-main-content {
+    display: grid;
+  }
+  /* Grid NavBar Container */
+  .grid-navBar-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  /* Grid Main Container */
+  .grid-main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  /* Grid Main Images */
+  .grid-main-images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .firstTwoImages {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .thirdImage {
+    display: grid;
+    justify-content: center;
+  }
+
+  .flex-secondarySection-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Secondary Pages - Grid editing */
+  .grid-mainSection-SecondaryPages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .flex-section-secondaryPages {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+}
