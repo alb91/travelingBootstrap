@@ -5,73 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/c2b6a647f8.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        <img src="./images/logo.png" alt="Logo Unexplored Stays">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <!-- Dropdown Menu -->
-                <ul>
-                <p>Places</p>
-                    <li><a href="./pages/boaVista.html">Boa Vista</a></li>
-                    <li><a href="./pages/ishigaki.html">Ishigaki Island</a></li>
-                    <li><a href="./pages/kamchatka.html">Kamchatka Peninsula</a></li>
-                    <li><a href="./pages/matera.html">Matera</a></li>
-                    <li><a href="./pages/montrealGarden.html">Botanical Garden, Montreal</a></li>
-                    <li><a href="./pages/ponmudi.html">Ponmudi Hills</a></li>
-                    <li><a href="./pages/roatan.html">Roatán</a></li>
-                    <li><a href="./pages/tigersNest.html">Tiger's Nest</a></li>
-                </ul>
-                <li><select  name="language" id="language">
-                <option value="english">English</option>
-                <option value="spanish">Español</option></select>
-                </li>
-            </ul>
+        <!-- Boostrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="Logo Unexplored Stays" class="d-inline-block align-text-top"></a>
+        <!-- Collapse Menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <!-- NavBar List -->
+            <!-- Placing navBar to the rigth -->
+            <div class="d-flex justify-content-end">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <div class="dropdown">
+                            <!-- Language Button -->
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                            </ul>
+                        </div>
+                        <!-- Dropdown Links -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Places
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./pages/boaVista.html">Boa Vista</a></li>
+                                <li><a class="dropdown-item" href="./pages/ishigaki.html">Ishigaki Island</a></li>
+                                <li><a class="dropdown-item" href="./pages/kamchatka.html">Kamchatka Peninsula</a></li>
+                                <li><a class="dropdown-item" href="./pages/matera.html">Matera</a></li>
+                                <li><a class="dropdown-item" href="./pages/montrealGarden.html">Botanical Garden, Montreal</a></li>
+                                <li><a class="dropdown-item" href="./pages/ponmudi.html">Ponmudi Hills</a></li>
+                                <li><a class="dropdown-item" href="./pages/roatan.html">Roatán</a></li>
+                                <li><a class="dropdown-item" href="./pages/tigersNest.html">Tiger's Nest</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
         </nav>
     </header>
-    
+
     <main>
-        <h1>Experience Unexplored Stays</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores ipsam pariatur voluptas culpa repellendus eum aperiam quisquam, unde nemo aliquam quo suscipit provident facilis placeat amet repellat? Quas officia incidunt autem adipisci eaque error natus est dignissimos recusandae ipsa pariatur libero cumque molestias enim, reiciendis et delectus repellat, rerum minima illum magni alias totam ullam. Voluptates necessitatibus adipisci fugit aut nam nulla accusantium, expedita ducimus qui tempore nemo ratione porro maiores? Temporibus quod ipsam quis, ullam modi explicabo ut eveniet, laboriosam delectus omnis rem qui. Animi excepturi, est dignissimos dicta similique odio reiciendis, ducimus soluta alias qui voluptate rerum dolor quia odit corrupti corporis id? Ullam ut architecto officiis quae quibusdam magnam dolore voluptatibus maxime sed, enim perspiciatis veritatis quisquam ipsam. Quae officiis labore ea officia soluta harum non et, unde similique voluptas, aperiam qui adipisci sed eligendi alias vero in modi natus corporis repellat ipsam. Esse dolorum adipisci nostrum perspiciatis excepturi quasi deleniti doloribus, expedita a dolor laboriosam error quisquam quos maiores dolorem sapiente perferendis eum alias! Incidunt iure voluptas sint? Id consectetur vero cum, harum voluptate dolorum aliquam libero eveniet qui quas, nam animi perspiciatis ipsa assumenda, neque impedit doloremque! Voluptatem illum dolorum quibusdam magni, facilis culpa!</p>
-        
-        <h2>Stays of the week</h2>
-        <p>Ponmudi Hills, India</p>
-        <a href="./pages/ponmudi.html"><img src="./images/ponmudiHills.jpg" alt="Ponmudi Greenery"></a>
-        <p>Kamchatka Peninsula, Russia</p>
-        <a href="./pages/kamchatka.html"><img src="./images/kamchatka.jpg" alt="Kamchatka Mountains"></a>
-        <p>Tiger's Nest, Bhutan</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/x71yCZyA4kQ" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-        <a href="./pages/tigersNest.html">More</a>
+        <!-- Grid main section -->
+        <div class="container">
+            <div class="row">
+                <!-- First container / Left Paragraph -->
+                <div class="col border m-2">
+                    <h1>Experience Unexplored Stays</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores ipsam pariatur voluptas culpa repellendus eum aperiam quisquam, unde nemo aliquam quo suscipit provident facilis placeat amet repellat? Quas officia incidunt autem adipisci eaque error natus est dignissimos recusandae ipsa pariatur libero cumque molestias enim, reiciendis et delectus repellat, rerum minima illum magni alias totam ullam. Voluptates necessitatibus adipisci fugit aut nam nulla accusantium, expedita ducimus qui tempore nemo ratione porro maiores? Temporibus quod ipsam quis, ullam modi explicabo ut eveniet, laboriosam delectus omnis rem qui. Animi excepturi, est dignissimos dicta similique odio reiciendis, ducimus soluta alias qui voluptate rerum dolor quia odit corrupti corporis id? Ullam ut architecto officiis quae quibusdam magnam dolore voluptatibus maxime sed, enim perspiciatis veritatis quisquam ipsam. Quae officiis labore ea officia soluta harum non et, unde similique voluptas, aperiam qui adipisci sed eligendi alias vero in modi natus corporis repellat ipsam. Esse dolorum adipisci nostrum perspiciatis excepturi quasi deleniti doloribus, expedita a dolor laboriosam error quisquam quos maiores dolorem sapiente perferendis eum alias! Incidunt iure voluptas sint? Id consectetur vero cum, harum voluptate dolorum aliquam libero eveniet qui quas, nam animi perspiciatis ipsa assumenda, neque impedit doloremque! Voluptatem illum dolorum quibusdam magni, facilis culpa!</p>
+                </div>
+                <!-- Second and Third Container to the right -->
+                <div class="col">
+                    <!-- Second Container / Top right Images-->
+                    <div class="row row-cols-auto">
+                        <div class="col border m-2 p-2">
+                            <h2>Stays of the week</h2>
+                            <!-- Carousel for main section -->
+                            <div id="carouselMainSlides" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        </a><img src="./images/boaVista.jpg"  class="img-fluid" alt="Boa Vista, Cape Verde">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5></a>Boa Vista, Cape Verde</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        </a><img src="./images/kamchatka.jpg" class="img-fluid" alt="Kamchatka Mountains">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Kamchatka Peninsula, Russia</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            
+                    </div>
+
+                        <!-- Third Container / Bottom Right Video-->
+                        <div class="col border m-2 p-2">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/x71yCZyA4kQ" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                            <a href="./pages/tigersNest.html">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- More images with links to more pages -->
-    <h3>More Stays...</h3>
-    <section>
-        <p>Boa Vista, Cape Verde</p>
-        <a href="./pages/boaVista.html"><img src="./images/boaVista.jpg" alt="Boa Vista, Cape Verde"></a>
-        <p>Ishigaki Island, Japan</p>
-        <a href="./pages/ishigaki.html"><img src="./images/ishigakiJapan.jpg" alt="Ishigaki Island, Hokaido Japan"></a>
-        <p>Matera, Italy</p>
-        <a href="./pages/matera.html"><img src="./images/materaItaly.jpg" alt="Matera, Italy"></a>
-        <p>Botanical Garden, Montreal Canada</p>
-        <a href="./pages/montrealGarden.html"><img src="./images/montrealCanada.jpg" alt="Botanical Garden, Montreal Canada"></a>
-        <p>Roatán, Honduras</p>
-        <a href="./pages/roatan.html"><img src="./images/roatanHonduras.jpg" alt="Roatán, Honduras"></a>
-    </section>
+    <div class="container"><h3>More Stays...</h3></div>
+    <div class="container cardContainer">
+        <div class="row row-cols-auto">
+            <!-- First Card  -->
+            <div class="card col" style="width: 18rem;">
+                <img src="./images/ishigakiJapan.jpg" class="card-img-top" alt="Ishigaki Island, Hokaido Japan">
+                <div class="card-body">
+                    <h5 class="card-title">Ishigaki Island, Japan</h5>
+                    <a href="./pages/ishigaki.html" class="btn btn-success">More info</a>
+                </div>
+            </div>
+            <!-- Second Card  -->
+            <div class="card col" style="width: 18rem;">
+                <img src="./images/ponmudiHills.jpg" class="card-img-top" alt="Ponmudi Greenery">
+                <div class="card-body">
+                    <h5 class="card-title">Ponmudi Hills</h5>
+                    <a href="./pages/ponmudi.html" class="btn btn-success">More info</a>
+                </div>
+            </div>
+            <!-- Third Card  -->
+            <div class="card col" style="width: 18rem;">
+                <img src="./images/materaItaly.jpg" class="card-img-top" alt="Matera, Italy">
+                <div class="card-body">
+                    <h5 class="card-title">Matera, Italy</h5>
+                    <a href="./pages/matera.html" class="btn btn-success">More info</a>
+                </div>
+            </div>
+            <!-- Fourth Card  -->
+            <div class="card col" style="width: 18rem;">
+                <img src="./images/montrealCanada.jpg" class="card-img-top" alt="Botanical Garden, Montreal Canada">
+                <div class="card-body">
+                    <h5 class="card-title">Botanical Garden, Montreal Canada</h5>
+                    <a href="./pages/montrealGarden.html" class="btn btn-success">More info</a>
+                </div>
+            </div>
+        <!-- Fifth Card  -->
+            <div class="card col" style="width: 18rem;">
+                <img src="./images/roatanHonduras.jpg" class="card-img-top" alt="Roatán, Honduras">
+                <div class="card-body">
+                    <h5 class="card-title">Roatán, Honduras</h5>
+                    <a href="./pages/roatan.html" class="btn btn-success">More info</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
-        <p>&copy;Copyright 2022</p>
-        <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
+        <div class="container">
+            
+            <ul class="d-flex justify-content-evenly m-3 p-3">
+                <li><a href="#"><i class="fa-brands fa-twitter fa-2x text-black"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook fa-2x text-black"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-2x text-black"></i></a></li>
+            </ul>
+            <p class="d-flex justify-content-end copyright">&copy;Copyright 2022</p>
+        </div>
     </footer>
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 </html>
