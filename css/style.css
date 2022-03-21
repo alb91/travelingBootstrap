@@ -4,6 +4,34 @@
   list-style: none;
 }
 
+/* Colors */
+.bodyColor {
+  background-color: #344966;
+  color: black;
+}
+.navColor {
+  background-color: #0d1821;
+}
+
+.leftParagraphColor {
+  background-color: #b8d4e3;
+}
+
+.rightCarouselColor {
+  background-color: #b8d4e3;
+}
+
+.rightVideoColor {
+  background-color: #b8d4e3;
+}
+.rightBottomImage {
+  background-color: #b8d4e3;
+}
+.cardsColor {
+  background-color: #d0fcb3;
+}
+
+/* Animation */
 .animationTime {
   display: inline-block;
   margin: 0 0.5rem;
