@@ -4,12 +4,12 @@
   list-style: none;
 }
 
-body {
+/* Colors */
+.bodyColor {
   background-color: #344966;
   color: black;
 }
-
-header {
+.navColor {
   background-color: #0d1821;
 }
 
@@ -24,22 +24,18 @@ header {
 .rightVideoColor {
   background-color: #b8d4e3;
 }
-
 .rightBottomImage {
   background-color: #b8d4e3;
 }
-
-.animationTime {
-  display: inline-block;
-  margin: 0 0.5rem;
-  animation: bounce;
-  /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
-  /* don't forget to set a duration! */
-}
-
 .cardsColor {
   background-color: #d0fcb3;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* Animation */
+.animationTime {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
