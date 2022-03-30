@@ -1,32 +1,12 @@
-* {
+body {
+  color: black;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-body {
-  background-color: #344966;
-  color: black;
-}
-
 header {
   background-color: #0d1821;
-}
-
-.leftParagraphColor {
-  background-color: #b8d4e3;
-}
-
-.rightCarouselColor {
-  background-color: #b8d4e3;
-}
-
-.rightVideoColor {
-  background-color: #b8d4e3;
-}
-
-.rightBottomImage {
-  background-color: #b8d4e3;
 }
 
 .animationTime {
@@ -40,6 +20,22 @@ header {
 
 .cardsColor {
   background-color: #d0fcb3;
+}
+
+body {
+  background-color: #344966;
+}
+
+.leftParagraphColor,
+.rightCarouselColor,
+.rightVideoColor,
+.rightBottomImage {
+  background-color: #b8d4e3;
+}
+
+.rightMapColor,
+.second-to-lastColorImage {
+  background-color: #aa767c;
 }
 
 /*# sourceMappingURL=style.css.map */

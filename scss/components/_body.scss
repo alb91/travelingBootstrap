@@ -1,0 +1,11 @@
+@import "../base/variables";
+@import "../base/lists";
+@import "../base/maps";
+
+body {
+  @extend %mucolor;
+  color: $txt-color;
+  margin: map-get($body, margen);
+  padding: map-get($body, bordes);
+  list-style: map-get($body, estilos);
+}
