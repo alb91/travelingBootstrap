@@ -1,0 +1,19 @@
+{
+  "name": "travelingbootstrap",
+  "version": "1.0.0",
+  "description": "Everything about hidden places to travel in a sustainable and community-friendly way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alb91/travelingBootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alb91/travelingBootstrap/issues"
+  },
+  "homepage": "https://github.com/alb91/travelingBootstrap#readme"
+}
