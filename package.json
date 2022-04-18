@@ -1,7 +1,7 @@
 {
   "name": "travelingbootstrap",
   "version": "1.0.0",
-  "description": "Everything about hidden places to travel in a sustainable and community-friendly way.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/alb91/travelingBootstrap/issues"
   },
-  "homepage": "https://github.com/alb91/travelingBootstrap#readme"
+  "homepage": "https://github.com/alb91/travelingBootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }

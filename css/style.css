@@ -1,41 +1,28 @@
-body {
-  color: black;
+* {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-header {
+/* Colors */
+.bodyColor {
+  background-color: #344966;
+  color: black;
+}
+.navColor {
   background-color: #0d1821;
 }
 
-.animationTime {
-  display: inline-block;
-  margin: 0 0.5rem;
-  animation: bounce;
-  /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
-  /* don't forget to set a duration! */
-}
+.leftParagraphColor, .rightCarouselColor, .rightVideoColor, .rightMapColor, .second-to-lastColorImage, .rightBottomImage, .cardsColor, .contactPageColor{
 
-.cardsColor {
-  background-color: #d0fcb3;
-}
-
-body {
-  background-color: #344966;
-}
-
-.leftParagraphColor,
-.rightCarouselColor,
-.rightVideoColor,
-.rightBottomImage {
   background-color: #b8d4e3;
 }
 
-.rightMapColor,
-.second-to-lastColorImage {
-  background-color: #aa767c;
-}
+/* Animation */
+.animationTime {
+  display: inline-block;
+  margin: 0 0.5rem;
 
-/*# sourceMappingURL=style.css.map */
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}

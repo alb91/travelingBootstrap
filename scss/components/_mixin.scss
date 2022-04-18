@@ -1,8 +1,0 @@
-@mixin secondaryImgColor($colores) {
-  background-color: $colores;
-}
-
-.rightMapColor,
-.second-to-lastColorImage {
-  @include secondaryImgColor(#aa767c);
-}
