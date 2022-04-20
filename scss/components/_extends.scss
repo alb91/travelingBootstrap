@@ -1,0 +1,10 @@
+@import "../base/lists";
+// usar % para llamar
+
+%mucolor {
+  background-color: nth($colors, 1);
+}
+
+%secondarybgcolor {
+  background-color: nth($colors, 3);
+}

@@ -1,0 +1,6 @@
+@import "../base/variables";
+@import "../base/lists";
+
+header {
+  background-color: nth($colors, 2);
+}
